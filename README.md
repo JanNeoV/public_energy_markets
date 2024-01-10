@@ -104,14 +104,16 @@ This is a super simple approach and the goal for this exercise is that  `Manager
    - In Tabular Editor, find the `FACT_GENERATION_QUARTERLY` table.
    - Set the security role for `Manager_Hourly` and `Manager_Daily` to 'None', ensuring these roles cannot access this table.
    - Repeat similar steps for other tables and roles as per the requirements.
-   - ![image](https://github.com/JanNeoV/energy_markets/assets/142179566/c17d9cc0-211f-4702-88f0-512aa513445e)
+   - ![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/6a0a6064-c960-4b9b-bbe2-e02d53818cb9)
+
 
 
 
 4. **Save Changes and Test in Power BI**:
    - After making the changes, save your model and test in Power BI Desktop.
    - Ensure that each role has the appropriate level of access as defined.
-![image](https://github.com/JanNeoV/energy_markets/assets/142179566/a66e03e6-42d9-452a-95fa-7d8243fe6878)
+   - ![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/c10b5a43-879a-411e-b5e0-e471110d3b58)
+
 
 
 
@@ -140,23 +142,28 @@ Objective: Enable user access to daily, hourly, and quarterly prices, while rest
 Develop a calculated table integral for the sensitive measure, but irrelevant for the general dataset.
 Implement OLS on this calculated table to manage access.
 
-![image](https://github.com/JanNeoV/energy_markets/assets/142179566/efbca58d-a3a1-4404-a1bd-439a36cb9717)
+![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/3778fc07-8abf-43a3-9ae9-dd2e06ba9c3e)
+
 
 
 ### Step 2: Measure Adjustment for OLS
 
 Modify the sensitive measure to depend on the calculated table, thereby linking its visibility to the OLS of the table.
-![image](https://github.com/JanNeoV/energy_markets/assets/142179566/89c3d524-dbf3-4889-98d7-50065d644cc3)
+![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/482407cc-16c4-4720-856b-80b7cb1d2c77)
+
 
 ### Step 3: Testing the Security Setup
 
 Conduct tests with various roles, such as 'intern', to verify the effectiveness of the OLS setup.
 Users in restricted roles should see all fact table data, except for the specific sensitive measure.
-![image](https://github.com/JanNeoV/energy_markets/assets/142179566/e0108eb1-8041-45be-9f2c-a2b1af6d616a)
+![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/d6b22efc-3409-497e-affb-4fe0b8e9ab50)
+
 
 ### Conclusion
-This approach to implementing OLS in Power BI provides a nuanced way to control data access. It ensures sensitive data remains confidential, while general data remains accessible for broader analytical purposes.![image](https://github.com/JanNeoV/energy_markets/assets/142179566/4dbfdae2-acf4-4a4e-953a-deac4e429c4c)
+This approach to implementing OLS in Power BI provides a nuanced way to control data access. It ensures sensitive data remains confidential, while general data remains accessible for broader analytical purposes.
 
+
+![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/478d3327-42dc-4523-ae2d-b0a52ec27de7)
 
 
 
