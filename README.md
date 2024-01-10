@@ -89,7 +89,8 @@ Each role is intended to have access to specific fact tables:
 
 The easiest way to implement this in Power BI is through Tabular Editor. Here's a step-by-step guide to setting up OLS for our fact tables:
 This is a super simple approach and the goal for this exercise is that  `Manager_Hourly` can only see data derived from the tables `FACT_PRICES_HOURLY` & `FACT_GENERATION_HOURLY`.
-![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/3a80266f-f7e6-42fe-a43c-fe99baea9556)
+![image](![image](https://github.com/JanNeoV/public_energy_markets/assets/142179566/0afde529-0a17-460a-b758-0a7282287260)
+)
 
 
 1. **Open Power BI Report in Tabular Editor**:
