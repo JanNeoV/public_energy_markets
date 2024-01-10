@@ -1,0 +1,13 @@
+# .gitignore
+
+# dbt-related files and directories
+dbt_modules/
+dbt_modules.yml
+my_first_dbt_model.sql
+my_second_dbt_model.sql
+models/snapshots/
+models/seeds/
+target/
+tests/
+logs/
+dbt_project.yml

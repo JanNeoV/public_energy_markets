@@ -1,0 +1,135 @@
+{
+  "name": "Plum",
+  "dataColors": [
+    "#8896BF",
+    "#033E8C",
+    "#034C8C",
+    "#4478A6",
+    "#03588C",
+    "#898CB5",
+    "#7385B3",
+    "#93B4E1"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#653745",
+  "tableAccent": "#2E7C85",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "*": [
+          {
+            "responsive": true,
+            "wordWrap": true,
+            "fontSize": 11
+          }
+        ],
+        "wordWrap": [
+          {
+            "show": true
+          }
+        ],
+        "labels": [
+          {
+            "show": true,
+            "labelOrientation": "vertical"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": true
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": true
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#A7B7F2"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#A7B7F2"
+              }
+            }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#A7B7F2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "fillPoint": [
+          {
+            "show": true
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "legend": [
+          {
+            "legendMarkerRendering": "lineAndMarker"
+          }
+        ]
+      }
+    },
+    "donutChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true
+          }
+        ],
+        "labels": [
+          {
+            "labelStyle": "Percent of total"
+          }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "legend": [
+          {
+            "show": true
+          }
+        ],
+        "labels": [
+          {
+            "labelStyle": "Percent of total"
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "color": "#695454"
+    },
+    "title": {
+      "color": "#695454",
+      "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif"
+    },
+    "callout": {
+      "color": "#695454",
+      "fontFace": "'Segoe UI Bold', wf_segoe-ui_bold, helvetica, arial, sans-serif"
+    },
+    "header": {
+      "color": "#695454"
+    }
+  }
+}
