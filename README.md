@@ -55,7 +55,7 @@ graph TD;
 
 - **Galaxy Schema (or Fact Constellation Schema)**: The galaxy schema allows multiple fact tables to share dimension tables. It's useful for more complex data models with varied data types and granularities, like my project. This schema provides a flexible and scalable solution for analyzing intricate datasets that are interconnected.
 
-## Power BI Security Features
+## 🔒 Power BI Security Features
 
 ### Object-Level Security (OLS) in Power BI
 
@@ -65,7 +65,7 @@ Object-Level Security (OLS) in Power BI enables more granular control over data 
 
 Row-Level Security (RLS) in Power BI restricts data access at the row level based on user roles and permissions. With RLS, you can define rules and roles in the Power BI Desktop and then assign users or groups to these roles in the Power BI Service. It ensures that users can only view the data pertinent to them, making it an essential feature for multi-user environments where data privacy and security are paramount.
 
-## Detailed Implementation of Object Level Security (OLS) in Power BI
+## 🛠️ Detailed Implementation of Object Level Security (OLS) in Power BI
 
 Object Level Security (OLS) in Power BI is a powerful feature that allows fine-grained control over which users or roles can see certain tables or columns in your data model. This section details the implementation of OLS using Tabular Editor, an external tool that integrates with Power BI for advanced data modeling capabilities.
 
@@ -123,7 +123,7 @@ This is a super simple approach and the goal for this exercise is that  `Manager
 By following these steps, you can effectively implement OLS in Power BI using Tabular Editor, ensuring that each managerial role has access only to the relevant data.
 
 
-## Advanced Object Level Security (OLS) Implementation Using Calculated Tables
+## 🚀 Advanced OLS Implementation Using Calculated Tables
 ### Context
 For complex scenarios where users require access to most columns but certain measures (like price targets or budgets) are sensitive, the straightforward OLS approach may not be sufficient. In such cases, restricting entire tables or columns is impractical. A more sophisticated method involving calculated tables and selective measure visibility is needed.
 
