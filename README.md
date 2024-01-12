@@ -1,40 +1,36 @@
 # Energy Markets
 
-## Overview
+## 🔍 Overview
 
-This repository is dedicated to a comprehensive use case analysis focusing on the current state of energy generation and electricity prices in Germany. My goal is to provide insightful data and analysis to understand the dynamics of the energy sector, particularly in the context of green hydrogen production and its potential impact on energy sustainability and economic viability. Additionally, I will introduce the **Galaxy Schema** and show use cases for **Object Level Security (OLS)**.
+This repository focuses on the current state of energy generation and electricity prices in Germany. It aims to provide data-driven insights into green hydrogen production and its impact on energy sustainability and economic viability. The repository also introduces the **Galaxy Schema** and showcases use cases for **Object Level Security (OLS)** in Power BI.
 
-## Repository Contents
+## 📁 Repository Contents
 
-- **Data**: Contains the datasets used for analysis. This includes historical data on energy generation, consumption patterns, and electricity pricing in Germany.
-- **Scripts**: Includes any scripts written for data processing or analysis, potentially in Python, R, or other programming languages.
-- **Documentation**: Provides detailed explanations of methodologies, data sources, and analytical processes.
+- **Data**: Historical data on energy generation, consumption patterns, and electricity pricing in Germany.
+- **Scripts**: Scripts for data processing or analysis in Python, R, or other languages.
+- **Documentation**: Methodologies, data sources, and analytical processes explanations.
 
-## Power BI Report
+## 📊 Power BI Report
 
-For a more interactive and visual representation of the data and findings, please refer to my Power BI report. This report offers a comprehensive dashboard view of the key metrics and trends in the energy sector.
+Explore the interactive and visual representation of data and findings in our Power BI report.
 
-[View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiM2Y1Y2FiNTQtMzg1Zi00NDAwLWFlZTYtMzZjNTIwZmVkYjIxIiwidCI6IjI5ODAzN2JlLTdhZDgtNGM4My04MGYzLTRmMDQ1NGEwY2ZjZCJ9)
+[🔗 View Power BI Report](https://app.powerbi.com/view?r=eyJrIjoiM2Y1Y2FiNTQtMzg1Zi00NDAwLWFlZTYtMzZjNTIwZmVkYjIxIiwidCI6IjI5ODAzN2JlLTdhZDgtNGM4My04MGYzLTRmMDQ1NGEwY2ZjZCJ9)
 
-## Objective
+## 🎯 Objective
 
-The main objectives of this project are:
+- Analyze trends in energy generation and electricity pricing in Germany.
+- Explore green hydrogen as an alternative energy source.
+- Provide insights and recommendations for energy sector stakeholders.
 
-- To analyze the current trends in energy generation and electricity pricing in Germany.
-- To explore the feasibility and impact of green hydrogen as an alternative energy source.
-- To provide data-driven insights and recommendations for stakeholders in the energy sector.
+## 🛠 Tools and Technologies
 
-## Tools and Technologies
-
-This project utilizes a range of tools and technologies, including:
-
-- **Data Analysis**: Python, R (for data processing and statistical analysis)
-- **Visualization**: Power BI (for creating interactive dashboards and reports)
-- **Database Management**: SQL, Excel (for data storage and retrieval)
+- **Data Analysis**: Python, R
+- **Visualization**: Power BI
+- **Database Management**: SQL, Excel
   
-## Datamodel
+## 🌌 Datamodel: Galaxy Schema
 
-In this project, we have implemented the Galaxy Schema for my data model. The Galaxy Schema is particularly suited for my dataset due to its ability to handle data of varying granularity. For instance, my fact table includes data points with different intervals, such as 15 minutes, hourly, and daily. This schema also allows for the integration of multiple fact tables sharing dimension tables, which is ideal for complex datasets like mine where diverse yet interrelated metrics need to be analyzed concurrently.
+The Galaxy Schema is used for its ability to handle varied data granularities and integrate multiple fact tables with shared dimension tables.
 
 ```mermaid
 graph TD;
