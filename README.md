@@ -1,4 +1,12 @@
-# Energy Markets
+# Energy Markets — Power BI Modeling & Security
+
+**Portfolio case study | Power BI · semantic modeling · energy-market analytics**
+
+This repository showcases analytical modeling around German electricity generation and pricing. Engineering examples include **a galaxy schema with facts at different time granularities** and **Power BI Object-Level Security (OLS)** for role-specific access.
+
+**Explore:** [Interactive Power BI report](https://app.powerbi.com/view?r=eyJrIjoiM2Y1Y2FiNTQtMzg1Zi00NDAwLWFlZTYtMzZjNTIwZmVkYjIxIiwidCI6IjI5ODAzN2JlLTdhZDgtNGM4My04MGYzLTRmMDQ1NGEwY2ZjZCJ9) · [AI Agent Evaluation Lab](https://github.com/JanNeoV/ai-agent-evaluation-lab) · [Power BI Semantic Assurance](https://github.com/JanNeoV/pbi-osi-converter)
+
+This is a documented BI case study, not a claim of production deployment or independently certified security controls.
 
 ## 🔍 Overview
 
